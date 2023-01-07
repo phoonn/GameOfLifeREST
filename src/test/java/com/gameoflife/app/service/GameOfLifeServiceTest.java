@@ -78,7 +78,6 @@ class GameOfLifeServiceTest {
         assertTrue(Arrays.deepEquals(thirdBoardResult, thirdBoardExpected));
 
         //Test: dead board will not become alive.
-        //Test: dead -> alive, because of too many alive neighbours. 
         final boolean[][] fourthBoard = new boolean[][]{
                 new boolean[]{false, false, false},
                 new boolean[]{false, false, false},
